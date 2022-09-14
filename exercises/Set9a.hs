@@ -187,7 +187,7 @@ compose = todo
 ------------------------------------------------------------------------------
 -- Ex 9: Reorder a list using a list of indices.
 --
--- You are given a list of indices (numbers from 0 to n) and an input
+-- You are given a list of indices (numbers from 0 to n-1) and an input
 -- list (of length n). Each index in the index list tells you where to
 -- place the corresponding element from the input list in the output
 -- list.
