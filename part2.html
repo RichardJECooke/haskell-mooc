@@ -3928,7 +3928,7 @@ bob
 <h2 data-number="15.1"><span class="header-section-number">15.1</span> Introduction to Applicatives</h2>
 <p>The <code>Applicative</code> type class is a middle ground between <code>Functor</code> (which you can’t do that much with) and <code>Monad</code> (which pretty much allows you to write arbitrary programs). Reasons to use <code>Applicative</code> instead of <code>Monad</code> include:</p>
 <ul>
-<li>Performance: since <code>Applicative</code> allows less operations, it can be optimized better than <code>Monad</code>.</li>
+<li>Performance: since <code>Applicative</code> allows fewer operations, it can be optimized better than <code>Monad</code>.</li>
 <li>Simplicity: an <code>Applicative</code> interface is easier to reason about.</li>
 <li>Necessity: there just is no way to define a <code>Monad</code> instance for your type, but there is an <code>Applicative</code> instance. This is rare.</li>
 </ul>
